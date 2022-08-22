@@ -4,7 +4,7 @@ const Project = ({ item }) => {
   return (
     <div key={item.id} className='flex flex-col items-center text-center'>
       <div className='mb-8'>
-        <div style={{ backgroundImage: `url(${item.image})` }} className='rounded-2xl w-[23rem] h-[23rem] bg-cover bg-top ease-in-out duration-[5000ms] cursor-pointer hover:bg-bottom' >
+        <div style={{ backgroundImage: `url(${item.image})` }} className='rounded-2xl w-[21rem] h-[21rem] sm:w-[23rem] sm:h-[23rem] bg-cover bg-left-top  ease-in-out duration-[5000ms] cursor-pointer hover:bg-right-bottom' >
         </div>
       </div>
       <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>

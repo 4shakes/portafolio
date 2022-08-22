@@ -130,27 +130,39 @@ export const projectsData = [
   },
   {
     id: '3',
-    image: Project3,
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206123/porfoil/ovum-min_g9wlnz.png',
     name: 'project name 3',
-    category: 'aplicaciones moviles',
+    category: 'paginas webs',
   },
   {
     id: '4',
-    image: Project4,
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206122/porfoil/garden-min_dcrrwd.png',
     name: 'project name 4',
-    category: 'branding',
+    category: 'paginas webs',
   },
   {
     id: '5',
-    image: Project5,
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206110/porfoil/urby-min_mtp0hq.png',
     name: 'project name 5',
-    category: 'web development',
+    category: 'paginas webs',
   },
   {
     id: '6',
-    image: Project6,
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/catapulta-min_h0fz1k.png',
     name: 'project name 6',
-    category: 'web development',
+    category: 'dashboard',
+  },
+  {
+    id: '7',
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/mowa-min_bfmjb3.png',
+    name: 'project name 6',
+    category: 'dashboard',
+  },
+  {
+    id: '8',
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/plantilla_base-min_vazwu6.png',
+    name: 'project name 6',
+    category: 'dashboard',
   },
 ];
 
