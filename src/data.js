@@ -35,6 +35,7 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
+import SkillImg8 from './assets/img/skills/tailwind.png';
 //import SkillImg8 from './assets/img/skills/figma.png';
 
 // testimonial images
@@ -45,27 +46,27 @@ import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 // navigation
 export const navigation = [
   {
-    name: 'home',
+    name: 'inicio',
     href: 'home',
   },
   {
-    name: 'about',
+    name: 'sobre mi',
     href: 'about',
   },
   {
-    name: 'portfolio',
+    name: 'portafolio',
     href: 'portfolio',
   },
   {
-    name: 'services',
+    name: 'servicios',
     href: 'services',
   },
+  /*  {
+     name: 'testimonials',
+     href: 'testimonials',
+   }, */
   {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
-  {
-    name: 'contact',
+    name: 'contactame',
     href: 'contact',
   },
 ];
@@ -119,49 +120,49 @@ export const projectsData = [
   {
     id: '1',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206119/porfoil/derecho_familia-min_huw25v.png',
-    name: 'project name 1',
+    name: 'web realizada con gatsby y tailwind',
     category: 'paginas webs',
   },
   {
     id: '2',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206122/porfoil/la_esperanza-min_nu3e0b.png',
-    name: 'project name 2',
+    name: 'web realizada con nextjs, typescript y tailwind',
     category: 'paginas webs',
   },
   {
     id: '3',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206123/porfoil/ovum-min_g9wlnz.png',
-    name: 'project name 3',
+    name: 'web realizada con nextjs, tailwind y graphql',
     category: 'paginas webs',
   },
   {
     id: '4',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206122/porfoil/garden-min_dcrrwd.png',
-    name: 'project name 4',
+    name: 'web realizada con nextjs, typescript y tailwind',
     category: 'paginas webs',
   },
   {
     id: '5',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206110/porfoil/urby-min_mtp0hq.png',
-    name: 'project name 5',
+    name: 'web realizada con nextjs, typescript y tailwind',
     category: 'paginas webs',
   },
   {
     id: '6',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/catapulta-min_h0fz1k.png',
-    name: 'project name 6',
+    name: 'dashboard realizado con react y tailwind',
     category: 'dashboard',
   },
   {
     id: '7',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/mowa-min_bfmjb3.png',
-    name: 'project name 6',
+    name: 'dashboard realizado con react y tailwind',
     category: 'dashboard',
   },
   {
     id: '8',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/plantilla_base-min_vazwu6.png',
-    name: 'project name 6',
+    name: 'dashboard realizado con react, typescript, chakraui y graphql',
     category: 'dashboard',
   },
 ];
@@ -205,9 +206,9 @@ export const skills = [
   {
     image: SkillImg7,
   },
-  /*   {
-      image: SkillImg8,
-    }, */
+  {
+    image: SkillImg8,
+  },
 ];
 
 // services
