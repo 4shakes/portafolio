@@ -64,9 +64,8 @@ const NavMobile = () => {
         variants={ulVariants}
         initial='hidden'
         animate={isOpen ? 'visible' : ''}
-        className={`${
-          isOpen ? 'right-0' : '-right-full'
-        } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
+        className={`${isOpen ? 'right-0' : '-right-full'
+          } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
       >
         <div
           onClick={() => setIsOpen(false)}
@@ -83,6 +82,7 @@ const NavMobile = () => {
                 duration={500}
                 offset={-70}
                 className='text-xl cursor-pointer capitalize'
+                onClick={() => setIsOpen(false)}
               >
                 {item.name}
               </Link>

@@ -4,7 +4,7 @@ import React from 'react';
 import { social } from '../data';
 
 // import logo
-import Logo from '../assets/img/logo.svg';
+import Logo from '../assets/img/logo.png';
 
 const Footer = () => {
   return (
@@ -22,10 +22,10 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <img src={Logo} alt='' />
+            <img src={Logo} className='w-10' alt='' />
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+            &copy; 2022 Jayro. Todos los derechos reservados  .
           </p>
         </div>
       </div>

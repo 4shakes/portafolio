@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
 // import components
 import Logo from '../assets/img/logo.png';
@@ -8,15 +7,7 @@ import NavMobile from '../components/NavMobile';
 import Socials from './Socials';
 
 const Header = () => {
-  const { t, i18n } = useTranslation();
   const [bg, setBg] = useState(false);
-  const [language, setLanguage] = useState(false)
-
-  const handleClick = (lang) => {
-    setLanguage(e => !e)
-    i18n.changeLanguage(lang)
-
-  }
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -44,13 +35,6 @@ const Header = () => {
         {/* Socials */}
         <div className='hidden lg:flex lg:gap-x-5'>
           <Socials />
-          {/* change lenguage */}
-          {language ? <div className="cursor-pointer" onClick={() => handleClick('en')}>
-            En
-          </div> : <div className="cursor-pointer" onClick={() => handleClick('es')}>
-            Es
-          </div>}
-
 
         </div>
 

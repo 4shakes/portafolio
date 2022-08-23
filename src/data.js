@@ -10,6 +10,8 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiPercent,
+  FiEdit3
 } from 'react-icons/fi';
 
 // companies icons
@@ -156,7 +158,7 @@ export const projectsData = [
   {
     id: '7',
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/mowa-min_bfmjb3.png',
-    name: 'dashboard realizado con react y tailwind',
+    name: 'dashboard realizado con react,api rest y tailwind',
     category: 'dashboard',
   },
   {
@@ -164,6 +166,12 @@ export const projectsData = [
     image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661206108/porfoil/plantilla_base-min_vazwu6.png',
     name: 'dashboard realizado con react, typescript, chakraui y graphql',
     category: 'dashboard',
+  },
+  {
+    id: '9',
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661272905/porfoil/catapulta_native_nbvqwm.jpg',
+    name: 'app realizada con react native',
+    category: 'aplicaciones moviles',
   },
 ];
 
@@ -215,19 +223,19 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Diseño Web',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'diseño de webs con la mejor experiencia de usuario',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'Desarrollo Web',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Maquetacion a nivel del pixel perfect y manejo de buenas practicas.',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
+    icon: <FiEdit3 />,
+    name: 'Redacción',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
@@ -235,7 +243,7 @@ export const services = [
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Posicionamiento de tu pagina web en los motores de busqueda',
   },
 ];
 
@@ -268,14 +276,14 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: '¿Tienes una pregunta?',
+    subtitle: 'Estoy aqui para ayudarte.',
+    description: 'jayro1996.ag@gmail.com',
   },
-  {
-    icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
-  },
+  /*   {
+      icon: <FiMapPin />,
+      title: 'Current Location',
+      subtitle: 'Bucharest, Romania',
+      description: 'Serving clients worldwide',
+    }, */
 ];

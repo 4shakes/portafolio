@@ -19,7 +19,7 @@ const Services = () => {
             labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
-        <div className='grid lg:grid-cols-4 gap-8'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-4  gap-8'>
           {services.map((service, index) => {
             const { icon, name, description } = service;
             return (
