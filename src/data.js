@@ -173,6 +173,12 @@ export const projectsData = [
     name: 'app realizada con react native',
     category: 'aplicaciones moviles',
   },
+  {
+    id: '10',
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1661298294/porfoil/practica_native_vdi6se.jpg',
+    name: 'app de prueba realizada en react native y typescript',
+    category: 'aplicaciones moviles',
+  },
 ];
 
 // projects
