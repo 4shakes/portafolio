@@ -13,11 +13,12 @@ const Contact = () => {
     mensaje: ''
   })
   const sendMessage = (e) => {
+
     e.preventDefault()
-    const numberCellPhone = 519215517958
+    const numberCellPhone = 51921517958
     const urlMobile = `https://api.whatsapp.com/send?phone=+${numberCellPhone}`;
 
-    const messageWhatsApp = `urlMobile &text=*_Formulario a traves de Whatsapp_*%0A*¿Cual es tu nombre?*%0A ${nombre} %0A*¿Cuál es tu correo?*%0A ${correo}  %0A*¿Cuál es el asunto?*%0A ${asunto}`
+    const messageWhatsApp = `urlMobile &text=*_Formulario a traves de Whatsapp_*%0A*¿Cual es tu nombre?*%0A ${nombre} %0A*¿Cuál es tu correo?*%0A ${correo}  %0A*¿Cuál es el asunto?*%0A ${asunto} %0A*¿Cuál es el mensaje?*%0A ${mensaje}`
     console.log(messageWhatsApp)
     return window.open(urlMobile + messageWhatsApp, '_blank')
 
@@ -47,7 +48,6 @@ const Contact = () => {
           >
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
-              const email = description.split(' ')
               return (
                 <div className='flex flex-col lg:flex-row gap-x-4' key={index}>
                   <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>

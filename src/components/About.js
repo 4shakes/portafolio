@@ -4,6 +4,7 @@ import React from 'react';
 import Image from '../assets/img/portafolio.jpg';
 
 const About = () => {
+
   return (
     <section className='section bg-secondary' id='about'>
       <div className='container mx-auto'>
@@ -26,10 +27,10 @@ const About = () => {
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-                soy ingeniero de sistemas apacionado por la programacion y enfocado actualmente
-                por el desarrollo frontend con 1 año de experiencia<br />
+                Ingeniero de sistemas apacionado por la programacion y enfocado actualmente
+                en desarrollo frontend con 1 año de experiencia<br />
                 <br />
-                Actualmente me encuentro en constante aprendizaje y desarrollo, buscando nuevas tecnologías
+                En constante aprendizaje y desarrollo, buscando nuevas tecnologías
                 y aprendiendo nuevas herramientas para el desarrollo de aplicaciones web y ser un Full-Stack.
               </p>
             </div>
