@@ -2,6 +2,7 @@ import React from 'react';
 
 // import img
 import Image from '../assets/img/portafolio.jpg';
+import PDF from '../assets/pdf/JAYRO-CV.pdf'
 
 const About = () => {
 
@@ -34,9 +35,9 @@ const About = () => {
                 y aprendiendo nuevas herramientas para el desarrollo de aplicaciones web y ser un Full-Stack.
               </p>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
+            <a href={PDF} download="JAYRO-CV.pdf" className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
               Descargar CV
-            </button>
+            </a>
           </div>
         </div>
       </div>

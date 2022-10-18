@@ -29,7 +29,7 @@ const Hero = () => {
               smooth={true}
               duration={900}
               offset={-70}
-              className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
+              className='btn btn-md cursor-pointer bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               Contactame
             </Link>
           </div>
