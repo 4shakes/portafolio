@@ -11,7 +11,10 @@ import {
   FiMail,
   FiMapPin,
   FiPercent,
-  FiEdit3
+  FiEdit3,
+  FiFacebook,
+  FiGitlab,
+  FiLinkedin
 } from 'react-icons/fi';
 
 // companies icons
@@ -76,21 +79,21 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FiGitlab />,
+    href: 'https://gitlab.com/4shakes',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/jayro.galindo/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/4shakes',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
-  },
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/jayro-alhuay-galindo-646338199/',
+  }
 ];
 
 // companies
@@ -239,12 +242,12 @@ export const services = [
     description:
       'Maquetacion a nivel del pixel perfect y manejo de buenas practicas.',
   },
-  {
-    icon: <FiEdit3 />,
-    name: 'Redacción',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
+  /*  {
+     icon: <FiEdit3 />,
+     name: 'Redacción',
+     description:
+       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+   }, */
   {
     icon: <FiTag />,
     name: 'SEO',

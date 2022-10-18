@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
-const useForm = (initialState) => {
+export const useForm = (initialState) => {
     const [state, setState] = useState(initialState)
 
     const onChange = (e) => {
@@ -14,11 +14,7 @@ const useForm = (initialState) => {
         setState(initialState)
     }
 
-    const resetCustom = (reset) => {
-        setState(reset ? reset : initialState)
-    }
 
-    return { ...state, onChange, reset, resetCustom }
+    return { ...state, onChange, reset }
 }
 
-export default useForm

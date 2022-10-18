@@ -3,23 +3,24 @@ import React from 'react';
 // import contact data
 import { contact } from '../data';
 import { FaWhatsapp } from 'react-icons/fa';
-import useForm from '../hooks/useForm';
+import { useForm } from '../hooks/useForm';
 
 const Contact = () => {
-  const { nombre, correo, asunto, mensaje, onChange } = useForm({
+  const { nombre, correo, asunto, mensaje, onChange, reset } = useForm({
     nombre: '',
     correo: '',
     asunto: '',
     mensaje: ''
   })
   const sendMessage = (e) => {
-
     e.preventDefault()
+    if (nombre.trim().length <= 1 && correo.trim().length <= 1 && asunto.trim().length <= 1 && mensaje.trim().length <= 1) return
     const numberCellPhone = 51921517958
     const urlMobile = `https://api.whatsapp.com/send?phone=+${numberCellPhone}`;
 
     const messageWhatsApp = `urlMobile &text=*_Formulario a traves de Whatsapp_*%0A*¿Cual es tu nombre?*%0A ${nombre} %0A*¿Cuál es tu correo?*%0A ${correo}  %0A*¿Cuál es el asunto?*%0A ${asunto} %0A*¿Cuál es el mensaje?*%0A ${mensaje}`
-    console.log(messageWhatsApp)
+    /* console.log(messageWhatsApp) */
+    reset()
     return window.open(urlMobile + messageWhatsApp, '_blank')
 
   }

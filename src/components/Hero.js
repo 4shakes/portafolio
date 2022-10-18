@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 // import woman image
-import WomanImg from '../assets/img/frontend.webp';
+import codigo from '../assets/img/frontend.webp';
 
 const Hero = () => {
   return (
@@ -21,12 +22,19 @@ const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               Me gusta desarrollar webs a la medida de las necesidades de cada cliente.
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
+            <Link
+              to='contact'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              duration={900}
+              offset={-70}
+              className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               Contactame
-            </button>
+            </Link>
           </div>
           <div className='hidden lg:flex flex-1 justify-center items-center h-full'>
-            <img src={WomanImg} alt='' />
+            <img src={codigo} alt='' />
           </div>
         </div>
       </div>
