@@ -2,7 +2,7 @@ import React from 'react';
 
 // import img
 import Image from '../assets/img/portafolio.jpg';
-import PDF from '../assets/pdf/JAYRO-CV.pdf'
+import PDF from '../assets/pdf/JAYRO_CV.pdf'
 
 const About = () => {
 
@@ -28,14 +28,14 @@ const About = () => {
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-                Ingeniero de sistemas apacionado por la programacion y enfocado actualmente
+                Ingeniero de sistemas apasionado por la programación y enfocado actualmente
                 en desarrollo frontend con 1 año de experiencia<br />
                 <br />
                 En constante aprendizaje y desarrollo, buscando nuevas tecnologías
-                y aprendiendo nuevas herramientas para el desarrollo de aplicaciones web y ser un Full-Stack.
+                y aprendiendo nuevas herramientas para el desarrollo de aplicaciones web.
               </p>
             </div>
-            <a href={PDF} download="JAYRO-CV.pdf" className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
+            <a href={PDF} download="JAYRO_CV.pdf" className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
               Descargar CV
             </a>
           </div>
