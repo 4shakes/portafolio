@@ -15,8 +15,7 @@ const Services = () => {
             Qué hago para los clientes
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Estos son algunos de los servicios que ofrezco a mis clientes
           </p>
         </div>
         <div className='grid sm:grid-cols-2 lg:grid-cols-3  gap-8'>

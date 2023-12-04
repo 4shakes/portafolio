@@ -2,7 +2,7 @@ import React from 'react';
 
 // import img
 import Image from '../assets/img/portafolio.jpg';
-import PDF from '../assets/pdf/JAYRO_CV.pdf'
+import PDF from '../assets/pdf/JAYRO-CV.pdf'
 
 const About = () => {
 
@@ -24,18 +24,14 @@ const About = () => {
                 Jayro as 4shakes
               </h2>
               <p className='mb-4 text-accent'>
-                Freelance Frontend Web Developer
+                Freelance Frontend Developer
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-                Ingeniero de sistemas apasionado por la programación y enfocado actualmente
-                en desarrollo frontend con 1 año de experiencia<br />
-                <br />
-                En constante aprendizaje y desarrollo, buscando nuevas tecnologías
-                y aprendiendo nuevas herramientas para el desarrollo de aplicaciones web.
+               Como ingeniero de sistemas, mi pasión por la programación se concentra en el desarrollo frontend, donde poseo más de 2 años de experiencia. Mi enfoque se centra en un aprendizaje continuo, explorando constantemente nuevas tecnologías y estrategias para impulsar el desarrollo de aplicaciones web. Mi objetivo es fusionar la funcionalidad y la creatividad para ofrecer soluciones digitales de alto impacto y eficiencia
               </p>
             </div>
-            <a href={PDF} download="JAYRO_CV.pdf" className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
+            <a href={PDF} download="JAYRO-CV.pdf" className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
               Descargar CV
             </a>
           </div>

@@ -37,8 +37,7 @@ const Contact = () => {
             Estemos en contacto
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Si tienes alguna consulta, no dudes en escribirme
           </p>
         </div>
         <div
@@ -72,21 +71,21 @@ const Contact = () => {
             <div className='flex gap-8 '>
               <div className="relative  w-full">
                 <input id='nombre' value={nombre} name='nombre' onChange={onChange} className=' font-body pr-4 pb-2.5 pt-4 pl-5 w-full text-paragraph h-[60px] text-[15px] rounded-sm bg-secondary border-1 border-gray-300 outline-none focus:outline focus:outline-1 focus:outline-accent peer' type='text' placeholder=' ' />
-                <label for="nombre" class="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-4 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-4 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Nombre</label>
+                <label htmlFor="nombre" className="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-4 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-4 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Nombre</label>
               </div>
               <div className="relative w-full">
-                <input id='correo' value={correo} name='correo' onChange={onChange} className=' font-body pr-4 pb-2.5 pt-4 pl-5 w-full text-paragraph h-[60px] text-[15px] rounded-sm bg-secondary border-1 border-gray-300 outline-none focus:outline focus:outline-1 focus:outline-accent peer' type='text' placeholder=' ' />
-                <label for="correo" class="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-4 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-4 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Correo</label>
+                <input id='correo' value={correo} name='correo' onChange={onChange} className=' font-body pr-4 pb-2.5 pt-4 pl-5 w-full text-paragraph h-[60px] text-[15px] rounded-sm bg-secondary border-1 border-gray-300 outline-none focus:outline focus:outline-1 focus:outline-accent peer' type='email' placeholder=' ' />
+                <label htmlFor="correo" className="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-4 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-4 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Correo</label>
               </div>
             </div>
             <div className="relative w-full">
               <input id='asunto' value={asunto} name='asunto' onChange={onChange} className=' font-body pr-4 pb-2.5 pt-4 pl-5 w-full text-paragraph h-[60px] text-[15px] rounded-sm bg-secondary border-1 border-gray-300 outline-none focus:outline focus:outline-1 focus:outline-accent peer' type='text' placeholder=' ' />
-              <label for="asunto" class="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-4 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-4 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Asunto</label>
+              <label htmlFor="asunto" className="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-4 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-4 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Asunto</label>
             </div>
 
             <div className="relative w-full">
               <textarea id='mensaje' value={mensaje} name='mensaje' onChange={onChange} className=' font-body pr-4 pb-2.5 pt-6 pl-5 w-full text-paragraph h-[200px] text-[15px] rounded-sm bg-secondary border-1 border-gray-300 outline-none focus:outline focus:outline-1 focus:outline-accent peer' type='text' placeholder=' ' ></textarea>
-              <label for="mensaje" class="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-5 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-[80px] peer-placeholder-shown:top-1/2 peer-focus:top-5 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Mensaje</label>
+              <label htmlFor="mensaje" className="absolute font-body text-[15px] text-paragraph duration-300 transform -translate-y-4 scale-75 top-5 z-[1] origin-[0] bg-transparent peer-focus:bg-secondary border-gray-300 px-2 peer-focus:px-2 peer-focus:text-accent peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-[80px] peer-placeholder-shown:top-1/2 peer-focus:top-5 peer-focus:scale-75 peer-focus:-translate-y-4 left-4">Mensaje</label>
             </div>
             <button className='btn btn-lg bg-accent hover:bg-secondary-hover ' onClick={sendMessage}>
               <div className="flex items-center gap-x-2">

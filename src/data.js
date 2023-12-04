@@ -41,7 +41,9 @@ import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/tailwind.png';
-//import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg9 from './assets/img/skills/figma.png';
+import SkillImg10 from './assets/img/skills/ts.png';
+import SkillImg11 from './assets/img/skills/redux.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -182,6 +184,18 @@ export const projectsData = [
     name: 'app de prueba realizada en react native y typescript',
     category: 'aplicaciones moviles',
   },
+  {
+    id: '11',
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1701652545/porfoil/akzom6wft0kzthomucta.png',
+    name: 'app LuxuryClub es una aplicación donde los usuarios pueden comprar diversos productos de lujo (react native, typescript, redux, axios, formik)',
+    category: 'aplicaciones moviles',
+  },
+  {
+    id: '12',
+    image: 'https://res.cloudinary.com/dy5pejp73/image/upload/v1701654982/porfoil/qffdkulchko1u40ehgao.png',
+    name: 'dashboard de tailoy, gestiona los eventos y la toma de pedido de los usuarios (react,typescript, react query, axios, redux-toolkit, react-hook-form, boostrap',
+    category: 'dashboard',
+  },
 ];
 
 // projects
@@ -212,10 +226,16 @@ export const skills = [
     image: SkillImg3,
   },
   {
+    image: SkillImg10,
+  },
+  {
     image: SkillImg4,
   },
   {
     image: SkillImg5,
+  },
+  {
+    image: SkillImg11,
   },
   {
     image: SkillImg6,
@@ -225,6 +245,9 @@ export const skills = [
   },
   {
     image: SkillImg8,
+  },
+   {
+    image: SkillImg9,
   },
 ];
 
@@ -240,7 +263,7 @@ export const services = [
     icon: <FiSettings />,
     name: 'Desarrollo Web',
     description:
-      'Maquetacion a nivel del pixel perfect y manejo de buenas practicas.',
+      'Maquetación a nivel del pixel perfect y manejo de buenas practicas.',
   },
   /*  {
      icon: <FiEdit3 />,
@@ -252,7 +275,7 @@ export const services = [
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'Posicionamiento de tu pagina web en los motores de busqueda',
+      'Posicionamiento de tu pagina web en los motores de búsqueda',
   },
 ];
 
@@ -286,7 +309,7 @@ export const contact = [
   {
     icon: <FiMail />,
     title: '¿Tienes una pregunta?',
-    subtitle: 'Estoy aqui para ayudarte.',
+    subtitle: 'Estoy aquí para ayudarte.',
     description: 'jayro1996.ag@gmail.com',
   },
   /*   {
